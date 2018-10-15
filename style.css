@@ -1,0 +1,53 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+section{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 25px 0;
+}
+section > .main{
+	width: 12%;
+	min-width: 200px;
+	/*margin: 5px 10px;*/
+}
+.kindle {
+	padding: 5px 10px;
+    border: 1px solid #bdb7b7;
+    border-radius: 5px;
+    width: 85%;
+}
+.main > div > p{
+	margin: 5px;
+}
+.amount{
+	color: #7a7474;
+}
+.detail{
+	width: 75%;
+	color: blue;
+	font-size: 15px;
+}
+.detail > span{
+	color: #b53322;
+}
+.hardcover{
+	padding: 5px 10px;
+    border: 1px solid orange;
+    border-radius: 5px;
+    width: 85%;
+}
+.hardcover:nth-child(1){
+	font-weight: bold;
+}
+.hardcover > .amount{
+	color: #b53322;
+}
+.hardp > span{
+	color: grey;
+}
+i{
+	color: #f6ab48;
+}
